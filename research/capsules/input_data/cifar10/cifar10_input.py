@@ -145,7 +145,7 @@ def inputs(split, data_dir, batch_size):
   """
   if split == 'train':
     filenames = [
-        os.path.join(data_dir, 'data_batch_%d.bin' % i) for i in xrange(1, 6)
+        os.path.join(data_dir, 'data_batch_%d.bin' % i) for i in range(1, 6)
     ]
   else:
     filenames = [os.path.join(data_dir, 'test_batch.bin')]
